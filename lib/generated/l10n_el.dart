@@ -1,17 +1,18 @@
 import 'l10n.dart';
 
-/// The translations for Russian (`ru`).
-class IELRu extends IEL {
-  IELRu([String locale = 'ru']) : super(locale);
+/// The translations for English (`en`).
+class IELEn extends IEL {
+  IELEn([String locale = 'el']) : super();
 
   @override
-  String get exportWidget_export => 'Экспорт';
+  String get exportWidget_export => 'Εξαγωγή2';
 
   @override
   String get exportWidget_pdfExported => 'PDF exported';
 
   @override
-  String get exportWidget_exportToPortableDocumentFormat => 'Export project to Portable Document Format';
+  String get exportWidget_exportToPortableDocumentFormat =>
+      'Export project to Portable Document Format';
 
   @override
   String get exportWidget_gpxExported => 'GPX exported';
@@ -29,10 +30,11 @@ class IELRu extends IEL {
   String get exportWidget_imagesToFolderExported => 'Images exported';
 
   @override
-  String get exportWidget_exportImagesToFolder => 'Export project images to folder';
+  String get exportWidget_exportImagesToFolder =>
+      'Export project images to folder';
 
   @override
-  String get exportWidget_exportImagesToFolderTitle => 'Изображения';
+  String get exportWidget_exportImagesToFolderTitle => 'Images';
 
   @override
   String get exportWidget_geopackageExported => 'Geopackage exported';
@@ -44,7 +46,7 @@ class IELRu extends IEL {
   String get exportWidget_exportToGSS => 'Export to Geopaparazzi Survey Server';
 
   @override
-  String get gssExport_gssExport => 'Экспорт GSS';
+  String get gssExport_gssExport => 'GSS Export';
 
   @override
   String get gssExport_setProjectDirty => 'Set project to DIRTY?';
@@ -68,19 +70,23 @@ class IELRu extends IEL {
   String get gssExport_collectingSyncStats => 'Collecting sync stats…';
 
   @override
-  String get gssExport_unableToSyncDueToError => 'Unable to sync due to an error, check diagnostics.';
+  String get gssExport_unableToSyncDueToError =>
+      'Unable to sync due to an error, check diagnostics.';
 
   @override
-  String get gssExport_noGssUrlSet => 'No GSS server URL has been set. Check your settings.';
+  String get gssExport_noGssUrlSet =>
+      'No GSS server URL has been set. Check your settings.';
 
   @override
-  String get gssExport_noGssPasswordSet => 'No GSS server password has been set. Check your settings.';
+  String get gssExport_noGssPasswordSet =>
+      'No GSS server password has been set. Check your settings.';
 
   @override
   String get gssExport_synStats => 'Sync Stats';
 
   @override
-  String get gssExport_followingDataWillBeUploaded => 'The following data will be uploaded upon sync.';
+  String get gssExport_followingDataWillBeUploaded =>
+      'The following data will be uploaded upon sync.';
 
   @override
   String get gssExport_gpsLogs => 'GPS Logs:';
@@ -92,7 +98,7 @@ class IELRu extends IEL {
   String get gssExport_formNotes => 'Form Notes:';
 
   @override
-  String get gssExport_images => 'Изображения:';
+  String get gssExport_images => 'Images:';
 
   @override
   String get gssExport_shouldNotHappen => 'Should not happen';
@@ -101,37 +107,43 @@ class IELRu extends IEL {
   String get gssExport_upload => 'Upload';
 
   @override
-  String get gssImport_gssImport => 'Импорт GSS';
+  String get gssImport_gssImport => 'GSS Import';
 
   @override
   String get gssImport_downloadingDataList => 'Downloading data list…';
 
   @override
-  String get gssImport_unableDownloadDataList => 'Unable to download data list due to an error. Check your settings and the log.';
+  String get gssImport_unableDownloadDataList =>
+      'Unable to download data list due to an error. Check your settings and the log.';
 
   @override
-  String get gssImport_noGssUrlSet => 'No GSS server URL has been set. Check your settings.';
+  String get gssImport_noGssUrlSet =>
+      'No GSS server URL has been set. Check your settings.';
 
   @override
-  String get gssImport_noGssPasswordSet => 'No GSS server password has been set. Check your settings.';
+  String get gssImport_noGssPasswordSet =>
+      'No GSS server password has been set. Check your settings.';
 
   @override
-  String get gssImport_noPermToAccessServer => 'No permission to access the server. Check your credentials.';
+  String get gssImport_noPermToAccessServer =>
+      'No permission to access the server. Check your credentials.';
 
   @override
-  String get gssImport_data => 'Данные';
+  String get gssImport_data => 'Data';
 
   @override
-  String get gssImport_dataSetsDownloadedMapsFolder => 'Datasets are downloaded into the maps folder.';
+  String get gssImport_dataSetsDownloadedMapsFolder =>
+      'Datasets are downloaded into the maps folder.';
 
   @override
   String get gssImport_noDataAvailable => 'No data available.';
 
   @override
-  String get gssImport_projects => 'Проекты';
+  String get gssImport_projects => 'Projects';
 
   @override
-  String get gssImport_projectsDownloadedProjectFolder => 'Projects are downloaded into the projects folder.';
+  String get gssImport_projectsDownloadedProjectFolder =>
+      'Projects are downloaded into the projects folder.';
 
   @override
   String get gssImport_noProjectsAvailable => 'No projects available.';
@@ -140,19 +152,22 @@ class IELRu extends IEL {
   String get gssImport_forms => 'Forms';
 
   @override
-  String get gssImport_tagsDownloadedFormsFolder => 'Tags files are downloaded into the forms folder.';
+  String get gssImport_tagsDownloadedFormsFolder =>
+      'Tags files are downloaded into the forms folder.';
 
   @override
   String get gssImport_noTagsAvailable => 'No tags available.';
 
   @override
-  String get importWidget_import => 'Импорт';
+  String get importWidget_import => 'Import';
 
   @override
-  String get importWidget_importFromGeopaparazzi => 'Import from Geopaparazzi Survey Server';
+  String get importWidget_importFromGeopaparazzi =>
+      'Import from Geopaparazzi Survey Server';
 
   @override
-  String get settings_pleaseEnterValidPassword => 'Please enter a valid server password.';
+  String get settings_pleaseEnterValidPassword =>
+      'Please enter a valid server password.';
 
   @override
   String get settings_gss => 'GSS';
@@ -164,7 +179,8 @@ class IELRu extends IEL {
   String get settings_serverUrl => 'Server URL';
 
   @override
-  String get settings_serverUrlStartWithHttp => 'The server URL needs to start with HTTP or HTTPS.';
+  String get settings_serverUrlStartWithHttp =>
+      'The server URL needs to start with HTTP or HTTPS.';
 
   @override
   String get settings_serverPassword => 'Server Password';
@@ -176,13 +192,15 @@ class IELRu extends IEL {
   String get network_cancelledByUser => 'Cancelled by user.';
 
   @override
-  String get network_completed => 'Завершено.';
+  String get network_completed => 'Completed.';
 
   @override
-  String get network_buildingBaseCachePerformance => 'Building base cache for improved performance (might take a while)…';
+  String get network_buildingBaseCachePerformance =>
+      'Building base cache for improved performance (might take a while)…';
 
   @override
-  String get network_thisFIleAlreadyBeingDownloaded => 'This file is already being downloaded.';
+  String get network_thisFIleAlreadyBeingDownloaded =>
+      'This file is already being downloaded.';
 
   @override
   String get network_download => 'Download';
@@ -191,7 +209,8 @@ class IELRu extends IEL {
   String get network_downloadFile => 'Download file';
 
   @override
-  String get network_toTheDeviceTakeTime => 'to the device? This can take a while.';
+  String get network_toTheDeviceTakeTime =>
+      'to the device? This can take a while.';
 
   @override
   String get network_availableMaps => 'Available maps';
@@ -209,7 +228,8 @@ class IELRu extends IEL {
   String get network_permissionOnServerDenied => 'Permission on server denied.';
 
   @override
-  String get network_couldNotConnectToServer => 'Could not connect to the server. Is it online? Check your address.';
+  String get network_couldNotConnectToServer =>
+      'Could not connect to the server. Is it online? Check your address.';
 
   @override
   String get gttExport_chooseGttProject => 'Choose GTT Project:';
@@ -239,34 +259,43 @@ class IELRu extends IEL {
   String get gttExport_collectingSyncStats => 'Collecting sync stats...';
 
   @override
-  String get gttExport_unableToSyncDueToError => 'Unable to sync due to an error, check diagnostics.';
+  String get gttExport_unableToSyncDueToError =>
+      'Unable to sync due to an error, check diagnostics.';
 
   @override
-  String get gttExport_noGttServerUrlSet => 'No GTT server url has been set. Check your settings.';
+  String get gttExport_noGttServerUrlSet =>
+      'No GTT server url has been set. Check your settings.';
 
   @override
-  String get gttExport_noGttPasswordSet => 'No GTT server password has been set. Check your settings.';
+  String get gttExport_noGttPasswordSet =>
+      'No GTT server password has been set. Check your settings.';
 
   @override
-  String get gttExport_noGttUserSet => 'No GTT server user has been set. Check your settings.';
+  String get gttExport_noGttUserSet =>
+      'No GTT server user has been set. Check your settings.';
 
   @override
-  String get gttExport_unableToRetrieveProjects => 'Unable to retrieve GTT Projects List. Check your settings.';
+  String get gttExport_unableToRetrieveProjects =>
+      'Unable to retrieve GTT Projects List. Check your settings.';
 
   @override
-  String get gttExport_unableToRetrieveApiKey => 'Unable to retrieve GTT Api Key. Check your settings.';
+  String get gttExport_unableToRetrieveApiKey =>
+      'Unable to retrieve GTT Api Key. Check your settings.';
 
   @override
   String get gttExport_syncStats => 'Sync Stats';
 
   @override
-  String get gttExport_dataUploadedUponSync => 'The following data will be uploaded upon sync.';
+  String get gttExport_dataUploadedUponSync =>
+      'The following data will be uploaded upon sync.';
 
   @override
-  String get gttExport_dataUploadedSelectedProject => 'The following data will be uploaded only if the project is selected.';
+  String get gttExport_dataUploadedSelectedProject =>
+      'The following data will be uploaded only if the project is selected.';
 
   @override
-  String get gttExport_contactAdmin => 'No Available Project, Contact your Admin.';
+  String get gttExport_contactAdmin =>
+      'No Available Project, Contact your Admin.';
 
   @override
   String get gttExport_selectProject => 'Select Project';
@@ -296,13 +325,15 @@ class IELRu extends IEL {
   String get gttExport_formNotesUpload => 'Form Notes Upload';
 
   @override
-  String get gttExport_formsUploadedToGttServer => 'Forms uploaded to GTT Server';
+  String get gttExport_formsUploadedToGttServer =>
+      'Forms uploaded to GTT Server';
 
   @override
   String get gttExport_simpleNotesUpload => 'Simple Notes Upload ';
 
   @override
-  String get gttExport_notesUploadedToGttServer => 'Notes uploaded to GTT Server';
+  String get gttExport_notesUploadedToGttServer =>
+      'Notes uploaded to GTT Server';
 
   @override
   String get gttExport_simpleLogsUpload => 'GPS Logs Upload ';
@@ -320,31 +351,39 @@ class IELRu extends IEL {
   String get gttImport_collectingSyncStats => 'Collecting sync stats...';
 
   @override
-  String get gttImport_unableToSyncDueToError => 'Unable to sync due to an error, check diagnostics.';
+  String get gttImport_unableToSyncDueToError =>
+      'Unable to sync due to an error, check diagnostics.';
 
   @override
-  String get gttImport_noGttServerUrl => 'No GTT server url has been set. Check your settings.';
+  String get gttImport_noGttServerUrl =>
+      'No GTT server url has been set. Check your settings.';
 
   @override
-  String get gttImport_noGttServerPassword => 'No GTT server password has been set. Check your settings.';
+  String get gttImport_noGttServerPassword =>
+      'No GTT server password has been set. Check your settings.';
 
   @override
-  String get gttImport_noGttServerUser => 'No GTT server user has been set. Check your settings.';
+  String get gttImport_noGttServerUser =>
+      'No GTT server user has been set. Check your settings.';
 
   @override
-  String get gttImport_unableToRetrieveProjects => 'Unable to retrieve GTT Projects List. Check your settings.';
+  String get gttImport_unableToRetrieveProjects =>
+      'Unable to retrieve GTT Projects List. Check your settings.';
 
   @override
-  String get gttImport_unableToRetrieveApiKey => 'Unable to retrieve GTT Api Key. Check your settings.';
+  String get gttImport_unableToRetrieveApiKey =>
+      'Unable to retrieve GTT Api Key. Check your settings.';
 
   @override
   String get gttImport_importProjectForm => 'Import Project Forms';
 
   @override
-  String get gttImport_importFormsFromGttServer => 'Import Forms from GTT Server Projects';
+  String get gttImport_importFormsFromGttServer =>
+      'Import Forms from GTT Server Projects';
 
   @override
-  String get gttImport_GTTServerProjectsWillBeImported => 'All GTT Server Projects will be imported';
+  String get gttImport_GTTServerProjectsWillBeImported =>
+      'All GTT Server Projects will be imported';
 
   @override
   String get gttImport_importingForms => 'Importing Forms';
@@ -359,7 +398,8 @@ class IELRu extends IEL {
   String get gttImport_projectFormImport => 'Project Form Import ';
 
   @override
-  String get gttImport_projectFormImported => 'Project Form imported from GTT Server';
+  String get gttImport_projectFormImported =>
+      'Project Form imported from GTT Server';
 
   @override
   String get gttImport_singleProject => 'Single Project';
@@ -380,5 +420,6 @@ class IELRu extends IEL {
   String get settings_serverUsername => 'Server Username';
 
   @override
-  String get settings_pleaseEnterValidUsername => 'Please enter a valid server username.';
+  String get settings_pleaseEnterValidUsername =>
+      'Please enter a valid server username.';
 }
